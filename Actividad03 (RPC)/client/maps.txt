@@ -1,0 +1,19 @@
+//THE VALUE AND WHETHER THE VALUE IS PRESENT
+val, is_val_present := m["b"] //this is going to return a true or a false
+fmt.Println(val) //Prints the value we are searching for
+fmt.Println(is_val_present) //Prints a true or a false
+
+_, is_val_present2 := m["a"]
+fmt.Println(is_val_present2)
+
+ //
+
+
+
+//Sending a map to a function
+
+m map[string]float64 <- the name and the types of the map
+
+
+ VIDEO EXPLAINING MAPS:
+ https://www.youtube.com/watch?v=XQre3ILIVH0
